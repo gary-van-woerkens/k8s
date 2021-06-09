@@ -645,12 +645,13 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@socialgouv/kosko-charts@^5.4.0":
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/kosko-charts/-/kosko-charts-5.4.0.tgz#5b633804984cc056cc291b7d76fc13090b4c0ee1"
-  integrity sha512-/lkM8VBFDfDiNoMb2Kmvv0x3moSIWlMEJOVVFKsVXGtmAubhZQnVMhV2BYJjRN0730vFv/xSiNSPGLHdxODrbw==
+"@socialgouv/kosko-charts@5.6.7-alpha.4":
+  version "5.6.7-alpha.4"
+  resolved "https://registry.yarnpkg.com/@socialgouv/kosko-charts/-/kosko-charts-5.6.7-alpha.4.tgz#a5e58a72ee8f36ad61768ff9010ad913911219b5"
+  integrity sha512-vxoxVClYoSJSqX0KCkb5/kLNdpOQEFjp5VBt4ioL5vpCy2hwpSJAwNuHkZUWQW5CX0J0cmf7d8Tt29xRDKunDA==
   dependencies:
     "@sindresorhus/is" "^4.0.0"
+    slugify "^1.5.3"
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.12"
@@ -3682,6 +3683,11 @@ slash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
+
+slugify@^1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.5.3.tgz#36e009864f5476bfd5db681222643d92339c890d"
+  integrity sha512-/HkjRdwPY3yHJReXu38NiusZw2+LLE2SrhkWJtmlPDB1fqFSvioYj62NkPcrKiNCgRLeGcGK7QBvr1iQwybeXw==
 
 snapdragon-node@^2.0.1:
   version "2.1.1"

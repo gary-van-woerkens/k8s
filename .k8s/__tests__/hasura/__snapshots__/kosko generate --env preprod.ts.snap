@@ -60,7 +60,7 @@ spec:
         cert: wildcard
     spec:
       containers:
-        - image: harbor.fabrique.social.gouv.fr/undefined/myapp:1.2.3
+        - image: harbor.fabrique.social.gouv.fr/myapp/myapp:1.2.3
           livenessProbe:
             failureThreshold: 6
             httpGet:
@@ -195,7 +195,7 @@ spec:
         cert: wildcard
     spec:
       containers:
-        - image: harbor.fabrique.social.gouv.fr/undefined/myapp-hasura:1.2.3
+        - image: harbor.fabrique.social.gouv.fr/myapp-hasura/myapp-hasura:1.2.3
           livenessProbe:
             failureThreshold: 6
             httpGet:
@@ -371,7 +371,7 @@ spec:
         cert: wildcard
     spec:
       containers:
-        - image: harbor.fabrique.social.gouv.fr/undefined/myapp:1.2.3
+        - image: harbor.fabrique.social.gouv.fr/myapp/myapp:1.2.3
           livenessProbe:
             failureThreshold: 6
             httpGet:
@@ -506,7 +506,7 @@ spec:
         cert: wildcard
     spec:
       containers:
-        - image: harbor.fabrique.social.gouv.fr/undefined/myapp-hasura:1.2.3
+        - image: harbor.fabrique.social.gouv.fr/myapp-hasura/myapp-hasura:1.2.3
           livenessProbe:
             failureThreshold: 6
             httpGet:

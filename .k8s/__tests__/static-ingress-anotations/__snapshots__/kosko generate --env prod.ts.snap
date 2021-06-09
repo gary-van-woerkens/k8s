@@ -41,7 +41,7 @@ spec:
     spec:
       containers:
         - image: >-
-            harbor.fabrique.social.gouv.fr/undefined/static-ingress-annotations:1.2.3
+            harbor.fabrique.social.gouv.fr/static-ingress-annotations/static-ingress-annotations:1.2.3
           livenessProbe:
             failureThreshold: 6
             httpGet:

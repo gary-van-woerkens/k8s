@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
         - image: >-
-            harbor.fabrique.social.gouv.fr/undefined/app-ingress-annotations:1.2.3
+            harbor.fabrique.social.gouv.fr/app-ingress-annotations/app-ingress-annotations:1.2.3
           livenessProbe:
             failureThreshold: 6
             httpGet:

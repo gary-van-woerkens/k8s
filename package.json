@@ -1,33 +1,21 @@
 {
-  "name": "k8s",
-  "version": "1.8.0",
-  "private": true,
+  "name": "@socialgouv/k8s",
+  "description": "Generate k8s manifests via kosko-charts",
+  "author": "Fabrique numérique des Ministères Sociaux <dsi-incubateur@sg.social.gouv.fr> (https://incubateur.social.gouv.fr)",
+  "bugs": "https://github.com/SocialGouv/k8s/issues",
+  "version": "1.9.0-alpha.20",
   "license": "Apache-2.0",
-  "release": {
-    "branches": [
-      "master"
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogFile": "docs/CHANGELOG.md"
-        }
-      ],
-      "@semantic-release/npm",
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "docs",
-            "package.json"
-          ],
-          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ],
-      "@semantic-release/github"
-    ]
+  "homepage": "https://github.com/SocialGouv/k8s#readme",
+  "keywords": [],
+  "main": "./.k8s",
+  "bin": {
+    "k8s": "bin/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "tempy": "^1.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
